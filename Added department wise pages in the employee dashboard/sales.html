@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sales Department</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+</head>
+<body>
+
+
+    <div class="sidebar">
+    <h2>Company</h2>
+    <ul>
+        <li>Dashboard</li>
+        <li>IT</li>
+        <li>HR</li>
+        <li>Sales</li>
+        <li>Finance</li>
+    </ul>
+</div>
+
+
+<div class="main">
+    <div class="main departmentsales">
+    <h1>Sales Department</h1>
+
+    <div class="cards">
+        <div class="card">
+            <h3>Present</h3>
+            <p>1</p>
+        </div>
+
+        <div class="card">
+            <h3>Absent</h3>
+            <p>0</p>
+        </div>
+
+        <div class="card">
+            <h3>Backup</h3>
+            <p>0</p>
+        </div>
+    </div>
+    </div>
+
+    <hr/>
+
+    <h2>Sales Department Attendance</h2>
+
+<div class="chart-container">
+    <canvas id="deptChart"></canvas>
+
+</div>
+
+</div>
+  
+<script src="sales.js"></script>
+
+</body>
+</html>
