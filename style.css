@@ -15,6 +15,10 @@ body {
     background-color: #2c3e50;
     color: white;
     padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height:100vh;
 }
 
 .sidebar ul {
@@ -34,6 +38,7 @@ body {
 /* Main Content */
 .main {
     flex: 1;
+    margin-left: 260px;
     padding: 20px;
 }
 
@@ -82,9 +87,33 @@ th {
 }
 
 .card:hover {
-    box-shadow: 2px 5px 2x black;
-    transition:1, 1, 1, 1;
+    box-shadow: 0 8px 20px grey;
+    transform: translate(-4px);
+}
+
+.card:hover{
+    transition: transform 0.3s ease;
+}
+
+tbody tr:hover td {
+    background-color: #f1f1f1;
+}
+
+tbody tr:hover td {
+   transition:background-color 0.2s ease;
+}
+
+.card p{
+    font-weight: bold;
 }
 
 
+.chart-container {
+    width: 600px;
+    margin: 40px auto;
+}
+
+table{
+    margin-bottom: 60px;
+}
 
