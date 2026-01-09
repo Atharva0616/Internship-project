@@ -18,3 +18,10 @@ new Chart(ctx, {
         }
     }
 });
+
+function toggleRow(id) {
+    const row = document.getElementById(id);
+    row.classList.toggle("show");
+}
+
+
